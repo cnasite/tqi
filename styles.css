@@ -48,7 +48,7 @@
   --brand: "IBM Plex Mono", "JetBrains Mono", monospace;
 
   /* layout */
-  --m: clamp(20px, 7.2vw, 138px);          /* page side margin (=138 @1920) */
+  --m: clamp(20px, 3vw, 64px);            /* page side margin scales more gently on large screens */
   --maxw: 1644px;
 
   /* radii */
@@ -789,5 +789,5 @@ button { font-family: inherit; cursor: pointer; }
 
 /* Extra large screens */
 @media (min-width: 1920px) {
-  :root { --m: 138px; }
+  :root { --m: 48px; }
 }
