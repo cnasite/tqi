@@ -100,7 +100,7 @@ button { font-family: inherit; cursor: pointer; }
    ========================================================================= */
 .announce {
   background: var(--intent); color: rgba(255,255,255,.78);
-  font-size: 13px; height: 48px; display: flex; align-items: center;
+  font-size: 16px; height: 48px; display: flex; align-items: center;
   justify-content: center; text-align: center; padding-inline: 16px;
 }
 .announce a { color: #fff; font-weight: 600; }
@@ -146,8 +146,8 @@ button { font-family: inherit; cursor: pointer; }
 .hero-inner { text-align: center; }
 .hero h1 {
   font-weight: 600; letter-spacing: -.022em; color: var(--ink);
-  font-size: clamp(44px, 4vw, 64px); line-height: 1.04;
-  margin: 0 auto; max-width: 780px;
+  font-size: clamp(44px, 5vw, 80px); line-height: 1.04;
+  margin: 0 auto; max-width: 900px;
 }
 .hero h1 .hot { color: var(--intent); }
 .hero .lede {
